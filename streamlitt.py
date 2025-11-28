@@ -20,10 +20,10 @@ Original file is located at
 # 
 # def user_input_features():
 #   age = st.number_input('Edad:', min_value=0, max_value=120, value=25, step=1)
-#   height_cm = st.number_input('Altura (cm):', min_value=100, max_value=250, value=170, step=1)
-#   weight_kg = st.number_input('Peso (kg):', min_value=20, max_value=250, value=70, step=1)
-#   heart_rate = st.number_input('Frecuencia cardiaca (lat/min):', min_value=30, max_value=200, value=70)
-#   blood_pressure = st.number_input('Presión arterial sistólica (mmHg):', min_value=60, max_value=200, value=120)
+#   height = st.number_input('Altura (cm):', min_value=100, max_value=250, value=170, step=1)
+#   weight = st.number_input('Peso (kg):', min_value=20, max_value=250, value=70, step=1)
+#   heart_rate = st.number_input('Frecuencia cardiaca:', min_value=30, max_value=200, value=70)
+#   blood_pressure = st.number_input('Presión arterial:', min_value=60, max_value=200, value=120)
 #   sleep_hours = st.number_input('Horas de sueño (promedio):', min_value=0.0, max_value=24.0, value=8.0)
 #   nutrition_quality = st.number_input('Calidad nutricional (0–10):', min_value=0.0, max_value=10.0, value=5.0)
 #   activity_index = st.number_input('Índice de actividad (1–5):', min_value=1.0, max_value=5.0, value=3.0)
@@ -32,8 +32,8 @@ Original file is located at
 # 
 #   user_input_data = {
 #       'age': age,
-#       'height_cm': height_cm,
-#       'weight_kg': weight_kg,
+#       'height': height,
+#       'weight': weight,
 #       'heart_rate': heart_rate,
 #       'blood_pressure': blood_pressure,
 #       'sleep_hours': sleep_hours,
